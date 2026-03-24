@@ -1,5 +1,14 @@
+# Use Node base image
 FROM node:18
+
+# Create app folder
 WORKDIR /app
-COPY . . 
+
+# Copy files
+COPY . .
+
+# Expose port
 EXPOSE 3000
-CMD ["node","server.js"]
+
+# Run app
+CMD ["node", "app.js"]

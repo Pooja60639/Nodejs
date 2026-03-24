@@ -1,5 +1,5 @@
 {
-    "name":"server.js",
-    "version":"1.0.0",
-    "main":"server.js"
+  "name": "node-docker-app",
+  "version": "1.0.0",
+  "main": "app.js"
 }
